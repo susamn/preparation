@@ -9,3 +9,24 @@ wheels/
 # Virtual environments
 .venv
 .idea/
+
+# Environment Variables (Crucial for Gen AI API keys)
+.env
+.env.*
+! .env.example
+
+# Gen AI / Large Files (Models, Datasets, Vector DBs)
+*.pt
+*.pth
+*.bin
+*.onnx
+*.gguf
+data/
+datasets/
+chroma/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# IDEs and Editors
+.vscode/
