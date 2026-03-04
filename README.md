@@ -22,3 +22,11 @@ The preparation project for algorithms and system design.
     ```bash
     uv run python -m ipykernel install --user --name=preparation --display-name "Python (preparation)"
     ```
+
+3. **Run Jupyter Notebook:**
+
+    To run the notebook using the internal kernel, run this
+
+    ```bash
+    uv run jupyter notebook
+    ```

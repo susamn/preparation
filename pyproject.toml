@@ -18,6 +18,7 @@ dependencies = [
     "langchain-ibm>=0.3.21",
     "langchain-text-splitters==0.3.11",
     "matplotlib>=3.10.8",
+    "notebook>=7.5.4",
     "pyodide-http>=0.2.2",
     "pyspark>=3.5.0",
     "requests==2.32.5",
