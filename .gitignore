@@ -27,6 +27,3 @@ chroma/
 
 # Jupyter Notebooks
 .ipynb_checkpoints/
-
-# IDEs and Editors
-.vscode/
