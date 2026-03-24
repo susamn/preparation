@@ -43,3 +43,21 @@ resource "aws_vpc" "myvpc" {
 output "vpcid" {
   value = aws_vpc.myvpc.id
 }
+
+variable "mytuple" {
+  type    = tuple([string, number, bool])
+  default = ["value1", 22, true]
+}
+
+variable "objectvar" {
+  type = object({
+    name = string
+    age  = number
+    city = string
+  })
+  default = {
+    name = "John"
+    age  = 30
+    city = "New York"
+  }
+}
