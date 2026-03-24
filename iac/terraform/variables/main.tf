@@ -4,7 +4,6 @@ provider "aws" {
 
 variable "vpc_name" {
   type        = string
-  default     = "myvpc"
   description = "This sets the vpc name"
 }
 
@@ -41,3 +40,6 @@ resource "aws_vpc" "myvpc" {
   }
 }
 
+output "vpcid" {
+  value = aws_vpc.myvpc.id
+}
