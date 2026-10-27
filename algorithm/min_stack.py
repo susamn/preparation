@@ -1,9 +1,5 @@
 """155. Min Stack
-Medium
-Topics
-premium lock icon
-Companies
-Hint
+
 Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
 
 Implement the MinStack class:
